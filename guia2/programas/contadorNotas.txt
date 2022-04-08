@@ -1,0 +1,7 @@
+def contar(n: int) -> int:
+	i: int = 0
+	nros: str = ""
+	while(i < n):
+		print(i)
+		nros = nros + str(i)
+	return nros
